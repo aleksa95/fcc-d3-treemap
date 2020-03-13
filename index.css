@@ -29,22 +29,7 @@ div.tooltip {
     margin-bottom: 50px;
 }
 
-.node {
-    border: solid 1px white;
-    font: 0.625em sans-serif;
-    line-height: 12px;
-    overflow: hidden;
-    position: absolute;
-    text-indent: 2px;
-    cursor: default;
-}
-
-.ledg{
-    font: .8em sans-serif;
-    position: absolute;
-    text-indent: 5px;
-}
-
-a {
-    color: dimgray;
+#legend {
+    display: flex;
+    margin: 20px auto 0 auto;
 }
