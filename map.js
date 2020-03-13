@@ -88,12 +88,12 @@ d3.json('https://cdn.freecodecamp.org/testable-projects-fcc/data/tree_map/movie-
   });
   categories = categories.filter(function(category, index, self){
     return self.indexOf(category)===index;
-  })
+  });
 
   // LEGEND
   const legend = map
     .append("g")
-    .attr("id", '#legend')
+    .attr("id", 'legend')
     .call(responsivefy);
 
   const legendWidth = 600;
